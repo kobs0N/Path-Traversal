@@ -31,8 +31,9 @@ but nevertheless are accepted by many implementations of Unicode
 decoders, particularly on the Windows platform.
  6. If the application is attempting to sanitize user input by removing traversal
 sequences and does not apply this filter recursively, it may be
-possible to bypass the filter by placing one sequence within another. For
-example:
+possible to bypass the filter by placing one sequence within another.
+
+For example:
 ....//
 ....\/
 ..../\
