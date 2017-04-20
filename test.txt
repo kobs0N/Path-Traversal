@@ -1,2 +1,4 @@
 header("Content-Security-Policy: "defualt-src")
 echo $_GET['x']
+
+alert('test')
